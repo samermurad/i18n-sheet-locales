@@ -1,0 +1,23 @@
+{
+  "name": "@codiseus/i18n-sheet-locales",
+  "version": "0.0.1",
+  "description": "Dynamic json translation files generation from sheets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sheets",
+    "spreadsheets",
+    "json",
+    "translations",
+    "locales",
+    "i18n"
+  ],
+  "author": "Samer Murad <samermurad555@gmail.com> (https://www.samermurad.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samermurad/i18n-sheet-locales.git"
+  }
+}
