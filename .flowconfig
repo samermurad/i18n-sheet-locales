@@ -1,0 +1,15 @@
+[ignore]
+
+[include]
+
+[libs]
+flow-typed/
+
+[lints]
+
+[options]
+
+[strict]
+
+[version]
+^0.103.0

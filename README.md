@@ -1,12 +1,31 @@
 # I18n Sheet Locales
 
-# Warning: DO NOT INSTALL
-Module not implemented yet
-
 ## Description
-sheets to json parsing integration for translation/locale files 
-### Comming Soon
+spreadsheets to json parsing integration for translation/locale files
 
+## Installation
+    npm install @codiseus/i18n-sheet-locales -save
+    
+## Setup
+In your root dir add a `i18n.config.js` file:
+
+    {
+        sheetsToExtract: ['App'], // One sheet name only 
+        spreadsheetKey: '1aEESDS9b8_1ECBG_Igtbp1ZjNDESS',
+        credentialsFilePath: '/PATH/TO/YOUR/SPREAD_SHEET.json',
+        outputDir: './PATH/TO/YOUR/LOCALE/DIR',
+        keyColumnName: 'KEY_COLUM_NAME', // example: 'KEY'
+        valuesColumnsNames: ['VALUES_COLUM_NAME', 'VALUES_COLUM_NAME'] // example: // ['EN', 'DE'] 
+     }
+
+# Run
+ once setup, you can run the parsing with simply running:
+
+    $~: i18n 
+
+## Roadmap
+- support multiple sheets
+- Integration With excel files(?)
 # License (MIT)
 
 The MIT License
