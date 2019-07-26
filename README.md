@@ -4,7 +4,7 @@
 spreadsheets to json parsing integration for translation/locale files
 
 ## Installation
-    npm install @codiseus/i18n-sheet-locales -save
+    npm install @codiseus/i18n-sheet-locales --save-dev
     
 ## Setup
 In your root dir add a `i18n.config.js` file:
